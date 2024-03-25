@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Evan Cen">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Evan professional website"
+    <title>Evan Cen</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1 id="webname"> Evan Cen</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html" class="active">Contact Me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon" >
+
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+ 
+              </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Contact Me</h2>
+        <form action="">
+
+            <label for="UserName">Your name (required): </label>
+ 
+            <input type="text" name="UserName" id="UserName" required>
+ 
+            <label for="UserEmail">Your email (required): </label>
+ 
+            <input type="email" name="UserEmail" id="UserEmail" required>
+ 
+            <label for="UserText">Your text (required): </label>
+ 
+            <textarea name="UserText" id="UserText" cols="30" rows="10" required></textarea>
+ 
+            <input type="submit" value="Send" onclick="validate()">
+ 
+        </form>
+ 
+        <p id="ValidateMsg"></p>
+        <table>
+
+            <tr><th>Contact Method</th><th>Description</th></tr>
+     
+            <tr><td>Email</td><td>cenevan@gmail.com</td></tr>
+     
+            <tr><td>Phone</td><td>669-292-8169</td></tr>
+     
+            <tr><td>LinkedIn</td><td>https://www.linkedin.com/in/evan-cen-b76583271/</td></tr>
+     
+        </table>
+    </div>
+    <footer>
+        <p>Evan Cen&copy; 2024</p>
+    </footer>
+</body>
+</html>
